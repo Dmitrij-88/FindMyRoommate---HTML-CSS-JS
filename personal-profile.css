@@ -1,0 +1,117 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {  
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 10%;
+    padding: 20px;
+    background-color: #000000;
+    height:100vh;
+    color: #f0f0f0;
+    text-align: center;
+    overflow-y: auto;
+    outline-style:solid;
+    outline-color: #000000;
+    margin: 3px;
+    font-size: 12px;
+  }
+  
+  .left-sidebar {
+    order: -1; /* Move left sidebar to the left */
+  }
+
+  .right-sidebar {
+    order: 1;
+  }
+  
+  .profile-container {
+    width: 80%;
+    height: 38vh;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .profile-picture {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .profile-details {
+    margin-top: 20px;
+    
+  }
+  
+  .profile-name {
+    font-size: 26px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    display: inline;
+  }
+
+  .profile-age {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #0077ff;
+    display: inline;
+  }
+  
+  .profile-college,
+  .profile-degree {
+    font-size: 16px;
+    color: #555;
+  }
+
+  .banner {
+    background-color: #0077ff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .profile-picture {
+    max-width: 250px; /* Set the maximum width for the profile picture */
+    width: 100%;
+    border-radius: 10000px;
+    border-color: aqua;
+    outline-style: dashed;
+    outline-color: #0077ff;
+  } 
+
+  .sidebar-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .sidebar-button1 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #0077ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
