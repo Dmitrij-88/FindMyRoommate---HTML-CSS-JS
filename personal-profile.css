@@ -5,6 +5,22 @@ body {
     background-color: #ffffff;
 }
 
+.logoname
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo
+{
+    width: 10%;
+    height: 10vh;
+}
+
+
+
 .container {
     display: flex;
 }
